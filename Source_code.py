@@ -9,8 +9,8 @@ try:
                 quantity = amount/fr.todays_petrol_rate
                 print(f"Hi you got {quantity} liters {fuel_type} of Rs.{amount}")
 
-        if (fuel_type == "disel" or fuel_type == "Disel"):
-                quantity = amount/fr.todays_disel_rate
+        if (fuel_type == "Diesel" or fuel_type == "Diesel"):
+                quantity = amount/fr.todays_diesel_rate
                 print(f"Hi you get {quantity} liters {fuel_type} of Rs.{amount}")
 
         if (fuel_type == "CNG" or fuel_type == "cng"):
